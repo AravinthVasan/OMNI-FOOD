@@ -21,8 +21,8 @@ html {
 
 header {
   background-image: linear-gradient(
-      rgba(83, 83, 83, 0.712),
-      rgba(116, 115, 115, 0.726)
+      rgba(41, 41, 41, 0.336),
+      rgba(44, 44, 44, 0.548)
     ),
     url(RESOURCES/CSS/IMG/hero.jpg);
   background-attachment: fixed;
@@ -176,7 +176,7 @@ input[type="submit"] {
 .btn-ghost:link,
 .btn-ghost:visited {
   border: 1px solid #e67e22;
-  color: #e67e22;
+  color: #ff7802;
   margin-left: 18px;
 }
 .btn:hover,
@@ -236,7 +236,6 @@ input[type="submit"] {
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
 }
-
 
 /*--------Mob-NAV---------*/
 .mobile-nav-icon {
@@ -563,14 +562,12 @@ footer p {
   margin-top: 20px;
 }
 
-
 /*----------------------------*/
 /*-------- Animations ---------*/
 
 .js--wp-1,
 .js--wp-2,
-.js--wp-3
- {
+.js--wp-3 {
   opacity: 0;
   animation-duration: 1s;
 }
@@ -581,9 +578,8 @@ footer p {
 
 .js--wp-1.animate__animated,
 .js--wp-2.animate__animated,
-.js--wp-3.animate__animated,
- {
+.js--wp-3.animate__animated {
   opacity: 1;
   animation: fadeIN;
-  animation-duration:1s;
-} 
+  animation-duration: 1s;
+}
