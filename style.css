@@ -156,7 +156,7 @@ a:active {
 .btn:link,
 .btn:visited,
 input[type="submit"] {
-  margin-left: 5%; /* 20 */
+  margin-left: 5px; /* 20 */
   display: inline-block;
   border: 1px solid #000;
   padding: 10px 30px;
