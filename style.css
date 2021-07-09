@@ -9,7 +9,7 @@
 }
 html {
   background-color: #fff;
-  color: rgb(77, 76, 76);
+  color: rgb(59, 59, 59);
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -582,4 +582,3 @@ footer p {
   opacity: 1;
   animation: fadeIN;
   animation-duration: 1s;
-}
